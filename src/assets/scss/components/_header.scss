@@ -1,0 +1,36 @@
+.menu {
+    white-space: nowrap;
+    background-color: $primary-color;
+    a:link {
+        color: rgba(219, 230, 211, 1);
+    }
+    a:hover {
+        color: rgba(219, 230, 211, 0.65);
+    }
+    a:visited {
+        color: rgba(219, 230, 211, 1);
+    }
+}
+.top-bar-left li {
+    color: $white;
+    font-size: 1.0rem;
+    // font-family: cursive;
+    padding-left: 1rem;
+    padding-top: 0.3rem;
+    @include breakpoint(medium) {
+        color: map-get($foundation-palette, baytree);
+        font-size: 1.5rem;
+        // padding-left: 0.5rem;
+        // padding-top: 0.5rem;
+    }
+}
+.top-bar-left .fi-telephone {
+    font-size: 1rem;
+    // padding: 1rem;
+
+    @include breakpoint(medium) {
+        font-size: 1.5rem;
+        // padding-top: 0;
+        // padding-right: 3rem;
+    }
+}

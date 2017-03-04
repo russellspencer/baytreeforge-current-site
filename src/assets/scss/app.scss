@@ -1,0 +1,145 @@
+@charset 'utf-8';
+@import 'settings';
+@import 'foundation';
+@import 'motion-ui'; // mixins
+@import "mixins/animation-slide-left"; // components
+@import 'components/hero';
+@import 'components/header';
+@import 'components/footer';
+@import "font-awesome"; // foundation
+@include foundation-global-styles;
+@include foundation-grid; // @include foundation-flex-grid;
+@include foundation-typography;
+@include foundation-button;
+@include foundation-forms; // @include foundation-range-input;
+@include foundation-accordion;
+@include foundation-accordion-menu;
+@include foundation-badge;
+@include foundation-breadcrumbs;
+@include foundation-button-group;
+@include foundation-callout;
+@include foundation-close-button;
+@include foundation-menu;
+@include foundation-menu-icon;
+@include foundation-drilldown-menu;
+@include foundation-dropdown;
+@include foundation-dropdown-menu;
+@include foundation-flex-video;
+@include foundation-label;
+@include foundation-media-object;
+@include foundation-off-canvas;
+@include foundation-orbit;
+@include foundation-pagination;
+@include foundation-progress-bar; // @include foundation-progress-element;
+// @include foundation-meter-element;
+@include foundation-slider;
+@include foundation-sticky;
+@include foundation-reveal;
+@include foundation-switch;
+@include foundation-table;
+@include foundation-tabs;
+@include foundation-thumbnail;
+@include foundation-title-bar;
+@include foundation-tooltip;
+@include foundation-top-bar;
+@include foundation-visibility-classes;
+@include foundation-float-classes; // @include foundation-flex-classes;
+@include motion-ui-transitions;
+@include motion-ui-animations;
+
+.portfolio{
+    padding-bottom: 1rem;
+    padding-top: 0rem;
+}
+
+.shadow {
+    box-shadow: 3px 3px 5px #000000;
+}
+.calloutfill {
+    background-color: rgb(99, 119, 110);
+}
+// Form begin
+.success {
+    padding: 1em;
+    margin-bottom: 0.75rem;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    color: #468847;
+    background-color: #dff0d8;
+    border: 1px solid #d6e9c6;
+    border-radius: 4px;
+}
+.error {
+    padding: 1em;
+    margin-bottom: 0.75rem;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    color: #b94a48;
+    background-color: #f2dede;
+    border: 1px solid rgba(185, 74, 72, 0.3);
+    border-radius: 4px;
+}
+.form-content {
+    background-color: map-get($foundation-palette, primary);
+}
+.form-main {
+    background-color: map-get($foundation-palette, primary);
+    padding-bottom: 10px;
+    padding-top: 20px;
+    a {
+        color: $white;
+    }
+    a:hover{
+        color: $white;
+    }
+
+}
+.form-address {
+    padding-top: 5%;
+    // padding-bottom: 10%;
+    // background-color:  map-get($foundation-palette, primary);
+    text-align: center;
+    // font-family: sans-serif;
+    font-size: 1.5rem;
+    a {
+    color: white;}
+    @include breakpoint(medium) {
+        font-size: 2rem;
+        font-family: cursive;
+        color: $white;
+    }
+
+}
+// Form end
+.main-content {
+    padding-bottom: 1rem;
+    padding-top: 2rem;
+    h4 {
+        padding: 1rem 0;
+    }
+    img {
+        padding-bottom: 1rem;
+        // vertical-align: middle;
+    }
+
+}
+.about-us {
+    padding-bottom: 0rem;
+    // margin-bottom: 50px;
+}
+
+.footer{
+    margin-top: 30px;
+}
+
+.page_title{
+    margin-top: 20px;
+    padding-top: 20px;
+    font-size: 3em;
+    text-align: center;
+    color: white;
+    background-color: map-get($foundation-palette, primary);
+
+
+    @media (max-width: 700px) {
+        font-size: 2em;
+    }
+}

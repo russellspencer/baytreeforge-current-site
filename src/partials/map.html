@@ -1,0 +1,52 @@
+<div id="map"></div>
+
+<script>
+      function initMap() {
+        var mapDiv = document.getElementById('map');
+        var map = new google.maps.Map(mapDiv, {
+            center: {lat: 53.577957, lng: -2.09183239999993 },
+            zoom: 10,
+        });
+      }
+    </script>
+
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCYT0gn5e0txNaQFUDLTsXVzW_tHLYdk54&callback=initMap">
+    </script>
+
+<!-- map2 -->
+
+<!-- <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script> -->
+<!-- <div style='overflow:hidden;height:440px;width:700px;'>
+    <div id='gmap_canvas' style='height:440px;width:700px;'></div>
+    <div><small><a href="http://embedgooglemaps.com">									embed google maps							</a></small></div>
+    <div><small><a href="https://binaireoptieservaringen.nl/">wij hebben alle binaire opties ervaringen in 1 overzicht</a></small></div>
+    <style>
+        #gmap_canvas img {
+            max-width: none!important;
+            background: none!important
+        }
+    </style> -->
+</div>
+<!-- <script type='text/javascript'>
+    function init_map() {
+        var myOptions = {
+            zoom: 10,
+            center: new google.maps.LatLng(53.577957, -2.09183239999993),
+            // mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+        map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);
+        marker = new google.maps.Marker({
+            map: map,
+            position: new google.maps.LatLng(53.577957, -2.09183239999993)
+        });
+        infowindow = new google.maps.InfoWindow({
+            content: '<strong>home</strong><br>ol2 8el<br>'
+        });
+        google.maps.event.addListener(marker, 'click', function() {
+            infowindow.open(map, marker);
+        });
+        infowindow.open(map, marker);
+    }
+    google.maps.event.addDomListener(window, 'load', init_map);
+</script> -->

@@ -1,0 +1,88 @@
+{{>header}} {{>hero}}
+<div class="row page_title large-12 columns">
+    <h2>Bespoke Wrought Iron Gate Design and Manufacture</h2>
+</div>
+<section id="first" data-magellan-target="first"></section>
+<div class="row main-content">
+    <div class="callout medium calloutfill">
+        <h4>At our specialised workshop in North Manchester, we design and manufacture bespoke wrought iron gates and fences to a high degree of craftsmanship. Baytree Forge is a small family run business and has been in operation for over forty years. We take great pride in our work, competitive pricing and good old fashioned customer service.</h4>
+    </div>
+    <!-- <div class="callout text-center large-12 column">
+        <p class="lead">Automatic and Security Gates; Automatic Gate Repairs; Railings; Iron and Metal Gates; Driveway Gates; Gate Repairs.</p>
+    </div> -->
+    <div class="portfolio">
+        <div class="large-6 column">
+            <div class="large-12 columns">
+                <img src="assets/img/baytreeforge_middleton_900.jpg" alt="Wrought iron gate at side of house">
+            </div>
+            <div class="large-12 column">
+                <p class="lead">Our gates and fences are designed to last and look good for many years to come.  We achieve this by using the best materials and traditional, tried and tested, manufacturing techniques. We finish all our wrought iron gates and
+                    fences with two coats of high quality undercoat and a finish of high grade paint or plastic in any choice of colours.</p>
+            </div>
+        </div>
+        <!-- <hr> -->
+        <div class="about-us large-6 column">
+            <div class="large-12 columns">
+                <img src="assets/img/baytreeforge_hero_900.jpg" alt="Large automated iron gate with intercom system">
+            </div>
+            <div class="large-12 column">
+                <p class="lead">In recent times, automatic installations have become very popular. We have found ourselves specializing in this type of work. We still fit hand operated gates, but if you want an automated installation, you can feel confident
+                    that we are going to do a first class job.</p>
+            </div>
+        </div>
+    </div>
+<div class="callout large-12 column">
+        <p class="lead">We also manufacture bespoke wrought iron products, repair wrought iron gates and fences, manufacture internal and external hand rails, rebuild and repair walls, cater for the building trade and galvanize our products as required.</p>
+    </div>
+
+</div>
+<section id="contact" data-magellan-target="contact"></section>
+<div class="row form-content">
+    <div class="form-address large-6 column">
+        <div class="large-12 column"><i class="fi-marker"></i> Baytree Forge, Fern Cottage, Baytree Lane, Middleton, M24 2FH
+        </div>
+        <div class="large-12 column"><i class="fi-telephone"></i> 0161 653 9228
+        </div>
+        <div class="large-12 column"><i class="fi-telephone"></i> 07931 477173
+        </div>
+    </div>
+    <div class="form-main large-6 column">
+        <div id="form-messages"></div>
+        <form id="ajax-contact" method="post" action="mailer.php">
+            <div class="medium-6 column">
+                <div class="field">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="field">
+                    <label for="name">Phone:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="field">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <p><a data-toggle="animatedModal1">Click Here For Privacy Policy</a></p>
+                <div class="reveal" id="animatedModal1" data-reveal data-close-on-click='true' data-animation-in='hinge-in-from-top' data-animation-out='hinge-out-from-top'>
+                  <h2>Privacy Statement</h2>
+                  <p class='lead'>Your details will only ever be used in relation to enquires and work undertaken by us. We will never pass your details on to any third parties.</p>
+                  <button class="close-button" data-close aria-label="Close reveal" type="button">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+            </div>
+            <div class="medium-6 column">
+                <div class="field">
+                    <label for="message">Message:</label>
+                    <textarea rows="8" id="message" name="message" required></textarea>
+                    <div class="secondary button">
+                        <button type="submit">Send</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+{{>footer}}
