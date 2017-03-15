@@ -1,19 +1,26 @@
 .footer-content {
     background-color: map-get($foundation-palette, primary);
     text-align: center;
-    padding: 2rem 2rem;
+    padding: 2rem;
     a {
-        color: map-get($foundation-palette, baytree);
+        color: map-get($foundation-palette, baytree-orange);
     }
     a:hover{
         color: $white;
     }
-    color: map-get($foundation-palette, baytree);
+    color: map-get($foundation-palette, baytree-orange);
     img {
-        width: 7rem;
+        width: 9rem;
+        padding-bottom: 8px;
+    }
+    span {
+        font-size: 1.6rem;
     }
 }
 .fi-laptop {
     font-size: 3rem;
     padding-right: 1rem;
+}
+.footer{
+    margin-top: 2rem;
 }
