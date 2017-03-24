@@ -3,13 +3,15 @@
 @import 'foundation';
 @import 'motion-ui'; // mixins
 @import "mixins/animation-slide-left"; // components
+@import 'main';
 @import 'components/hero';
 @import 'components/header';
 @import 'components/footer';
 @import 'components/form';
 @import "font-awesome"; // foundation
 @include foundation-global-styles;
-@include foundation-grid; // @include foundation-flex-grid;
+// @include foundation-grid;
+@include foundation-flex-grid;
 @include foundation-typography;
 @include foundation-button;
 @include foundation-forms; // @include foundation-range-input;
@@ -33,57 +35,14 @@
 // @include foundation-slider;
 @include foundation-sticky;
 @include foundation-reveal; // @include foundation-switch;
-// @include foundation-table;
-// @include foundation-tabs;
-// @include foundation-thumbnail;
+@include foundation-table;
+@include foundation-tabs;
+@include foundation-thumbnail;
 @include foundation-title-bar;
 @include foundation-tooltip;
 @include foundation-top-bar;
 @include foundation-visibility-classes;
-@include foundation-float-classes; // @include foundation-flex-classes;
+@include foundation-float-classes;
+@include foundation-flex-classes;
 @include motion-ui-transitions;
 @include motion-ui-animations;
-
-.portfolio {
-    padding-bottom: 1rem;
-    padding-top: 0;
-}
-
-.shadow {
-    box-shadow: 3px 3px 5px #000000;
-}
-
-.primary-color {
-    background-color: map-get($foundation-palette, primary);
-}
-
-.main-content {
-    padding-bottom: 1rem;
-    padding-top: 2rem;
-
-    h4 {
-        padding: 1rem 0;
-    }
-
-    img {
-        padding-bottom: 1rem;
-        // vertical-align: middle;
-    }
-}
-
-.about-us {
-    padding-bottom: 0;
-    // margin-bottom: 50px;
-}
-
-.page_title {
-    margin-top: 20px;
-    padding-top: 20px;
-    font-size: 3em;
-    text-align: center;
-    color: white;
-    background-color: map-get($foundation-palette, primary);
-    @media (max-width: 700px) {
-        font-size: 2em;
-    }
-}

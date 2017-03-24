@@ -1,49 +1,42 @@
-{{>header}}
-{{>hero}}
+{{>header}} {{>hero}}
+<div class="row page_title align-center align-middle shadow">
+    <h2>Wrought Iron Gate Design and Manufacture</h2>
+    <section id="first" data-magellan-target="first"></section>
+</div>
 
-<div class="row page_title large-12 columns">
-    <h2>Bespoke Wrought Iron Gate Design and Manufacture</h2>
-</div>
-<section id="first" data-magellan-target="first"></section>
-<div class="row main-content">
-    <div class="callout primary-color">
-        <h4>At our specialised workshop in North Manchester, we design and manufacture bespoke wrought iron gates and fences to a high degree of craftsmanship. Baytree Forge is a small family run business and has been in operation for over forty years. We take great pride in our work, competitive pricing and good old fashioned customer service.</h4>
+
+<article class="row about-us">
+    <h4>At our specialised workshop in North Manchester, we design and manufacture bespoke wrought iron gates and fences to a high degree of craftsmanship.
+        Baytree Forge is a small family run business and has been in operation for over forty years. We take great pride in our work, competitive pricing and good old fashioned customer service.</h4>
+</article>
+
+<div class="row align-spaced">
+    <div class="card large-11 medium-24 small-24 column shadow">
+        <img src="assets/img/baytreeforge_middleton_900.jpg" alt="Wrought iron gate at side of house">
+        <p>Our gates and fences are designed to last and look good for many years to come. We achieve this by using the best materials and traditional, tried and tested, manufacturing techniques. We finish all our wrought iron gates and fences with two coats
+            of high quality undercoat and a finish of high grade paint or plastic in any choice of colours.</p>
     </div>
-    <div class="portfolio">
-        <div class="large-6 column">
-            <div class="large-12 columns">
-                <img src="assets/img/baytreeforge_middleton_900.jpg" alt="Wrought iron gate at side of house">
-            </div>
-            <div class="large-12 column">
-                <p class="lead">Our gates and fences are designed to last and look good for many years to come. We achieve this by using the best materials and traditional, tried and tested, manufacturing techniques. We finish all our wrought iron gates and fences with
-                    two coats of high quality undercoat and a finish of high grade paint or plastic in any choice of colours.</p>
-            </div>
-        </div>
-        <!-- <hr> -->
-        <div class="about-us large-6 column">
-            <div class="large-12 columns">
-                <img src="assets/img/baytreeforge_hero_900.jpg" alt="Large automated iron gate with intercom system">
-            </div>
-            <div class="large-12 column">
-                <p class="lead">In recent times, automatic installations have become very popular. We have found ourselves specializing in this type of work. We still fit hand operated gates, but if you want an automated installation, you can feel confident that we are going to do a first class job.</p>
-            </div>
-        </div>
-    </div>
-    <div class="callout large-12 column primary-color">
-        <p class="lead">We also manufacture bespoke wrought iron products, repair wrought iron gates and fences, manufacture internal and external hand rails, rebuild and repair walls, cater for the building trade and galvanize our products as required.</p>
+    <div class="card large-11 medium-24 small-24 column shadow">
+        <img src="assets/img/baytreeforge_hero_900.jpg" alt="Large automated iron gate with intercom system">
+        <p>In recent times, automatic installations have become very popular. We have found ourselves specializing in this type of work. We still fit hand operated gates, but if you want an automated installation, you can feel confident that we are going
+            to do a first class job.</p>
+
     </div>
 </div>
+<article class="row closing-article ">
+    <h4>We also manufacture bespoke wrought iron products, repair wrought iron gates and fences, manufacture internal and external hand rails, rebuild and repair walls, cater for the building trade and galvanize our products as required.</h4>
+</article>
 <section id="contact" data-magellan-target="contact"></section>
-<div class="row form-content">
-    <div class="form-address large-6 column">
-        <div class="large-12 column"><i class="fi-marker"></i> Baytree Forge, Fern Cottage, Baytree Lane, Middleton, M24 2FH</div>
-        <div class="large-12 column"><i class="fi-telephone"></i> 0161 653 9228</div>
-        <div class="large-12 column"><i class="fi-telephone"></i> 07931 477173</div>
+<div class="form-wrapper row align-strech shadow">
+    <div class="form-address large-12 medium-24 small-24 columns">
+        <div class="large-24 column"><i class="fi-marker"></i> Baytree Forge, Fern Cottage, Baytree Lane, Middleton, M24 2FH</div>
+        <div class="large-24 column"><i class="fi-telephone"></i> 0161 653 9228</div>
+        <div class="large-24 column"><i class="fi-telephone"></i> 07931 477173</div>
     </div>
-    <div class="form-main large-6 column">
+    <form class="form-main large-12 medium-24 small-24 columns">
         <div id="form-messages"></div>
         <form id="ajax-contact" method="post" action="mailer.php">
-            <div class="medium-6 column">
+            <div class="large-24 column">
                 <div class="field">
                     <label for="name">Name:</label>
                     <input type="text" id="name" name="name" required>
@@ -61,11 +54,11 @@
                     <h2>Privacy Statement</h2>
                     <p class='lead'>Your details will only ever be used in relation to enquires and work undertaken by us. We will never pass your details on to any third parties.</p>
                     <button class="close-button" data-close aria-label="Close reveal" type="button">
-                    <span aria-hidden="true">&times;</span>
-                  </button>
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
                 </div>
             </div>
-            <div class="medium-6 column">
+            <div class="medium-24 column">
                 <div class="field">
                     <label for="message">Message:</label>
                     <textarea rows="8" id="message" name="message" required></textarea>
@@ -75,7 +68,6 @@
                 </div>
             </div>
         </form>
-    </div>
+    </form>
 </div>
-
 {{>footer}}
