@@ -29,10 +29,13 @@
 }
 .form-address {
     background-color: map-get($foundation-palette, primary);
-    padding-top: 7%;
+    padding-top: 8%;
     // padding-bottom: 100px;
     text-align: center;
     font-size: 1.5rem;
+    a {
+        color: white;
+    }
     @include breakpoint(medium) {
         font-size: 2rem;
         font-family: cursive;
@@ -42,6 +45,6 @@
     }
 .form-wrapper {
     margin-bottom: 5vh;
-    margin-top: 5vh;
+    // margin-top: 5vh;
     // padding: 20px;
 }
