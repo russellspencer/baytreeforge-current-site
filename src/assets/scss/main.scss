@@ -2,7 +2,7 @@
     height: 18vh;
     margin-top:5vh;
     background-color: map-get($foundation-palette, primary);
-    font-size: 3em;
+    font-size: 2.6em;
     color: $white;
     @media (max-width: 950px) {
         font-size: 2rem;
@@ -45,7 +45,7 @@
 }
 
 .closing-article {
-    margin-top: 5vh;
+    margin-top: 4vh;
     h4 {
         border: 7px;
         border-style: double;
@@ -54,4 +54,9 @@
         margin-left: 5vw;
         margin-right: 5vw;
     }
+}
+
+.success.button {
+  font-size: 1.9rem;
+  padding: 20px 40px;
 }
