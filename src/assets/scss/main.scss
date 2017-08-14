@@ -4,11 +4,23 @@
     background-color: map-get($foundation-palette, primary);
     font-size: 2.6em;
     color: $white;
+    p {
+      margin-bottom:0px;
+    }
+    @media (max-width: 1400px) {
+        margin-top:0px;
+    }
     @media (max-width: 950px) {
         font-size: 2rem;
     }
-    @media (max-width: 640px) {
-        font-size: 1rem;
+    @media (max-width: 710px) {
+        font-size: 1.5rem;
+    }
+    @media (max-width: 580px) {
+        font-size: 1.3rem;
+    }
+    @media (max-width: 500px) {
+        font-size: 0.9rem;
     }
 }
 .about-us {
