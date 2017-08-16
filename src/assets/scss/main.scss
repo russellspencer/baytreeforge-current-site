@@ -7,8 +7,9 @@
     p {
       margin-bottom:0px;
     }
-    @media (max-width: 1400px) {
+    @media (max-width: 1200px) {
         margin-top:0px;
+        box-shadow: 0px 0px 0px white;
     }
     @media (max-width: 950px) {
         font-size: 2rem;
@@ -67,8 +68,25 @@
         margin-right: 5vw;
     }
 }
+.contact .card {
+  margin-bottom: 20px;
+
+    @media (max-width: 1200px) {
+    margin-bottom: 0px;
+    border-radius: 0px;
+    box-shadow: 0px 0px 0px #000000;
+  }
+}
+
+// @media (max-width: 1400px) {
+//     margin-top:0px;
+// }
+
 
 .success.button {
-  font-size: 1.9rem;
+  font-size: 1.7rem;
   padding: 20px 40px;
+  @media (max-width: 400px) {
+    font-size: 1em;
+  }
 }

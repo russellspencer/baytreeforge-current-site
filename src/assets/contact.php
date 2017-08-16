@@ -62,7 +62,7 @@
 	<nav class="navbar navbar-default" style="background-color: rgb(69, 74, 72);">
       <div class="container">
         <div class="navbar-header">
-          <a class="navbar-brand" style="font-size:1.5em;" href="../index.html">Back To Baytreeforge Homepage</a>
+          <a class="navbar-brand" style="font-size:1.4em;" href="../index.html">Back To Baytreeforge Homepage</a>
         </div>
       </div>
     </nav>
