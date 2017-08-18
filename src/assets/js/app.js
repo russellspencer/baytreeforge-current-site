@@ -79,3 +79,7 @@ $(function () {
 		});
 	});
 });
+
+window.sr = ScrollReveal();
+sr.reveal('.card-1', { duration: 2000, origin:'left', distance:'900px', opacity:0, scale:1 });
+sr.reveal('.card-2', { delay: 0, duration: 2000, origin:'right', distance:'900px', opacity:0, scale:1 });

@@ -42,10 +42,17 @@
     margin-top: 0vh;
     border-color: map-get($foundation-palette, secondary);
     border-radius: 5px;
+    @media (max-width: 1200px) {
+    margin-bottom: 0px;
+    border-radius: 0px;
+    box-shadow: 0px 0px 0px #000000;
+  }
+
     p {
         font-size: 1.3rem;
         padding: 10px;
     }
+
 }
 
 .shadow {
