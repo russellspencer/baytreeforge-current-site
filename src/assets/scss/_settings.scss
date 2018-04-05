@@ -50,9 +50,9 @@ $global-width: rem-calc(1200);
 $global-lineheight: 1.5;
 $foundation-palette: (
   primary: rgb(69, 74, 72),
-  secondary: #777,
-  baytree:rgb(235, 117, 11),
-  success: #3adb76,
+  secondary: rgb(108, 116, 113),
+  baytree-orange:rgb(235, 117, 11),
+  success: #20a653,
   warning: #ffae00,
   alert: #ec5840,
 );
@@ -71,7 +71,7 @@ $global-weight-normal: normal;
 $global-weight-bold: bold;
 $global-radius: 4px;
 $global-text-direction: ltr;
-$global-flexbox: false;
+$global-flexbox: true;
 $print-transparent-backgrounds: true;
 
 @include add-foundation-colors;
@@ -81,9 +81,8 @@ $print-transparent-backgrounds: true;
 
 $breakpoints: (
   small: 0px,
-  // medium: 640px,
-  medium: 740px,
-  large: 1044px,
+  medium: 720px,
+  large: 944px,
   xlarge: 1200px,
   xxlarge: 1440px,
 );
@@ -93,7 +92,7 @@ $breakpoint-classes: (small medium large);
 // -----------
 
 $grid-row-width: $global-width;
-$grid-column-count: 12;
+$grid-column-count: 24;
 $grid-column-gutter: (
   small: 20px,
   medium: 30px,
@@ -111,7 +110,7 @@ $font-family-monospace: Consolas, 'Liberation Mono', Courier, monospace;
 $header-sizes: (
   small: (
     'h1': 34,
-    'h2': 20,
+    'h2': 22,
     'h3': 19,
     'h4': 18,
     'h5': 17,
@@ -119,7 +118,7 @@ $header-sizes: (
   ),
   medium: (
     'h1': 48,
-    'h2': 40,
+    'h2': 36,
     'h3': 31,
     'h4': 25,
     'h5': 20,
@@ -384,8 +383,8 @@ $mediaobject-image-width-stacked: 100%;
 
 $menu-margin:0rem;
 $menu-margin-nested: 1rem;
-// $menu-item-padding: 1.5rem 1.5rem;
-$menu-item-padding: 1rem 2rem;
+$menu-item-padding: 2.5rem 2.5rem;
+$menu-item-padding: 1.6rem;
 $menu-item-color-active: $white;
 $menu-item-background-active: map-get($foundation-palette, secondary);
 $menu-icon-spacing: 0.25rem;
@@ -572,6 +571,6 @@ $topbar-background: $light-gray;
 $topbar-background: rgb(255, 248, 230);
 $topbar-submenu-background: $topbar-background;
 $topbar-submenu-background: rgba(96, 102, 92, 1.0);
-$topbar-title-spacing: 2rem;
+$topbar-title-spacing: 3rem;
 $topbar-input-width: 100px;
 $topbar-unstack-breakpoint: medium;
