@@ -1,9 +1,10 @@
 .page_title {
     height: 18vh;
-    margin-top:5vh;
+    margin-top:4vh;
     background-color: map-get($foundation-palette, primary);
     font-size: 2.6em;
     color: $white;
+
     p {
       margin-bottom:0px;
     }
@@ -25,14 +26,14 @@
     }
 }
 .about-us {
-    margin-top: 5vh;
+    margin-top: 3.5vh;
     h4 {
-        border: 7px;
-        border-style: double;
+        border: 3px;
+        border-style: solid;
         border-radius: 5px;
-        padding: 30px;
-        margin-left: 5vw;
-        margin-right: 5vw;
+        padding: 25px;
+        margin-left: 1vw;
+        margin-right: 1vw;
         // margin-left: 100px;
     }
 }
@@ -56,29 +57,27 @@
 }
 
 .shadow {
-    box-shadow: 4px 3px 4px #000000;
-}
-
-.primary-color {
-    background-color: red;
-    // margin-left: 1000px;
+    box-shadow: 0px 3px 5px #000000;
 }
 
 .closing-article {
-    margin-top: 4vh;
+    margin-top: 3.5vh;
     h4 {
-        border: 7px;
-        border-style: double;
+        border: 3px;
+        border-style: solid;
         border-radius: 5px;
-        padding: 30px;
-        margin-left: 5vw;
-        margin-right: 5vw;
+        padding: 25px;
+        margin-left: 1vw;
+        margin-right: 1vw; 
+        // margin-left: 100px;
     }
 }
 .contact .card {
-  margin-bottom: 20px;
-  padding-bottom: 0px;
-  padding-top: 20px;
+    margin-top: 0vh;
+    margin-bottom: 4vh;
+    padding-top: 0px;
+    padding-bottom: 0px;
+
 
     @media (max-width: 1200px) {
       padding: 0px;

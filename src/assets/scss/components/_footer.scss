@@ -1,7 +1,7 @@
 .footer-content {
     background-color: map-get($foundation-palette, primary);
     text-align: center;
-    padding: 2rem;
+    padding: 1rem;
     a {
         color: map-get($foundation-palette, baytree-orange);
     }
@@ -10,7 +10,7 @@
     }
     color: map-get($foundation-palette, baytree-orange);
     img {
-        width: 8rem;
+        width: 5rem;
         padding-bottom: 10px;
     }
     span {
@@ -18,6 +18,6 @@
     }
 }
 .fi-laptop {
-    font-size: 3rem;
-    padding-right: 1rem;
+    font-size: 2rem;
+    padding-right: 0rem;
 }

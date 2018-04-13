@@ -18,8 +18,8 @@
 }
 .form-main {
     background-color: map-get($foundation-palette, primary);
-    // padding-bottom: 10px;
-    padding-top: 20px;
+    // padding-bottom: 40px;
+    // padding-top: 20px;
     a {
         color: $white;
     }
@@ -29,8 +29,8 @@
 }
 .form-address {
     background-color: map-get($foundation-palette, primary);
-    padding-top: 8%;
-    // padding-bottom: 100px;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
     text-align: center;
     font-size: 1.5rem;
     a {
@@ -40,11 +40,11 @@
         font-size: 2rem;
         font-family: cursive;
         color: $white;
-        // padding-bottom: 3%;
+        // padding-bottom: 5vh;
         }
     }
 .form-wrapper {
-    margin-bottom: 5vh;
+    // margin-bottom: 5vh;
     // margin-top: 5vh;
-    // padding: 20px;
+    // padding: 0px;
 }
