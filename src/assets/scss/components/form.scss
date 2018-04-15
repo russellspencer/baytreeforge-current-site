@@ -1,50 +1,37 @@
-.success {
-    padding: 1em;
-    margin-bottom: 0.75rem;
-    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
-    color: #468847;
-    background-color: #dff0d8;
-    border: 1px solid #d6e9c6;
-    border-radius: 4px;
-}
-.error {
-    padding: 1em;
-    margin-bottom: 0.75rem;
-    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
-    color: #b94a48;
-    background-color: #f2dede;
-    border: 1px solid rgba(185, 74, 72, 0.3);
-    border-radius: 4px;
-}
-.form-main {
-    background-color: map-get($foundation-palette, primary);
-    // padding-bottom: 40px;
-    // padding-top: 20px;
-    a {
-        color: $white;
-    }
-    a:hover{
-        color: $white;
-    }
-}
-.form-address {
-    background-color: map-get($foundation-palette, primary);
-    padding-top: 5vh;
-    padding-bottom: 5vh;
-    text-align: center;
-    font-size: 1.5rem;
-    a {
-        color: white;
-    }
-    @include breakpoint(medium) {
-        font-size: 2rem;
-        font-family: cursive;
-        color: $white;
-        // padding-bottom: 5vh;
-        }
-    }
-.form-wrapper {
-    // margin-bottom: 5vh;
-    // margin-top: 5vh;
-    // padding: 0px;
-}
+// .success {
+//     padding: 1em;
+//     margin-bottom: 0.75rem;
+//     text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+//     color: #468847;
+//     background-color: #dff0d8;
+//     border: 1px solid #d6e9c6;
+//     border-radius: 4px;
+// }
+// .error {
+//     padding: 1em;
+//     margin-bottom: 0.75rem;
+//     text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+//     color: #b94a48;
+//     background-color: #f2dede;
+//     border: 1px solid rgba(185, 74, 72, 0.3);
+//     border-radius: 4px;
+// }
+// .form-main {
+//     background-color: map-get($foundation-palette, primary);
+//     // padding-bottom: 40px;
+//     // padding-top: 20px;
+//     a {
+//         color: $white;
+//     }
+//     a:hover{
+//         color: $white;
+//     }
+// }
+
+
+
+// .form-wrapper {
+//     // margin-bottom: 5vh;
+//     // margin-top: 5vh;
+//     // padding: 0px;
+// }

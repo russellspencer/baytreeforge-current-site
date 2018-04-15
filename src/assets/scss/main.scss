@@ -1,15 +1,15 @@
 .page_title {
-    height: 18vh;
-    margin-top:4vh;
+    height: 16vh;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
     background-color: map-get($foundation-palette, primary);
     font-size: 2.6em;
     color: $white;
-
     p {
-      margin-bottom:0px;
+        margin-bottom: 0px;
     }
     @media (max-width: 1200px) {
-        margin-top:0px;
+        margin-top: 0px;
         box-shadow: 0px 0px 0px white;
     }
     @media (max-width: 950px) {
@@ -20,82 +20,87 @@
     }
     @media (max-width: 580px) {
         font-size: 1.3rem;
+        height: 12vh;
     }
     @media (max-width: 500px) {
         font-size: 0.9rem;
     }
 }
+
 .about-us {
-    margin-top: 3.5vh;
+    margin-bottom: 2vh;
     h4 {
-        border: 3px;
+        border: 2px;
         border-style: solid;
         border-radius: 5px;
         padding: 25px;
         margin-left: 1vw;
-        margin-right: 1vw;
-        // margin-left: 100px;
+        margin-right: 1vw; // margin-left: 100px;
     }
 }
+
 .card {
     background-color: map-get($foundation-palette, primary);
-    padding: 20px;
-    margin-top: 0vh;
-    border-color: map-get($foundation-palette, secondary);
+    padding: 20px 5px 0px 5px;
+    margin-left: 1vh;
+    margin-right: 1vh;
+    margin-bottom: 4vh;
+    // border-color: map-get($foundation-palette, secondary);
     border-radius: 5px;
     @media (max-width: 1200px) {
-    margin-bottom: 0px;
-    border-radius: 0px;
-    box-shadow: 0px 0px 0px #000000;
-  }
-
+        
+        border-radius: 0px;
+        box-shadow: 0px 0px 0px #000000;
+    }
     p {
         font-size: 1.3rem;
-        padding: 10px;
+        padding: 20px 5px 0px 5px;
     }
+}
 
+
+
+.closing-article {
+    margin-bottom: 2vh;
+    h4 {
+        border: 2px;
+        border-style: solid;
+        border-radius: 5px;
+        padding: 25px;
+        margin-left: 1vw;
+        margin-right: 1vw; // margin-left: 100px;
+    }
+}
+
+// .contact {
+//     margin-top: 0vh;
+//     margin-bottom: 4vh;
+//     padding-top: 0px;
+//     padding-bottom: 0px;
+//     @media (max-width: 1200px) {
+//       padding: 0px;
+//     margin-bottom: 0px;
+//     border-radius: 0px;
+//     box-shadow: 0px 0px 0px #000000;
+//   }
+// }
+.address {
+    background-color: map-get($foundation-palette, primary);
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+    text-align: center;
+    font-size: 1.5rem;
+    // margin-bottom: 4vh;
+    @include breakpoint(large) {
+        margin-bottom: 4vh;
+        font-size: 2rem;
+        font-family: cursive;
+        color: $white;
+        box-shadow: 0px 3px 5px #000000;
+        // padding-bottom: 5vh;
+    }
 }
 
 .shadow {
     box-shadow: 0px 3px 5px #000000;
 }
-
-.closing-article {
-    margin-top: 3.5vh;
-    h4 {
-        border: 3px;
-        border-style: solid;
-        border-radius: 5px;
-        padding: 25px;
-        margin-left: 1vw;
-        margin-right: 1vw; 
-        // margin-left: 100px;
-    }
-}
-.contact .card {
-    margin-top: 0vh;
-    margin-bottom: 4vh;
-    padding-top: 0px;
-    padding-bottom: 0px;
-
-
-    @media (max-width: 1200px) {
-      padding: 0px;
-    margin-bottom: 0px;
-    border-radius: 0px;
-    box-shadow: 0px 0px 0px #000000;
-  }
-}
-
-// @media (max-width: 1400px) {
-//     margin-top:0px;
-// }
-
-
-// .success.button {
-//   font-size: 1.7rem;
-//   padding: 20px 40px;
-//   @media (max-width: 400px) {
-//     font-size: 1em;
-//   }
-// }
